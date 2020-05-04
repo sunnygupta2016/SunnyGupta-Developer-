@@ -1,0 +1,17 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "personal_website",
+  "main": "index.js",
+  "homepage": "https://sunnygupta2016.github.io/SunnyGupta-Developer-",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Sunny Gupta",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.2"
+  }
+}
